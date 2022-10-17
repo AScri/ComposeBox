@@ -19,10 +19,6 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
-    buildFeatures {
-        viewBinding = true
-    }
-
     buildTypes {
         debug {
             debuggable true
@@ -50,6 +46,13 @@ android {
     }
     kotlinOptions {
         jvmTarget = '1.8'
+    }
+    buildFeatures {
+        compose true
+        viewBinding = true
+    }
+    composeOptions {
+        kotlinCompilerExtensionVersion '1.3.2'
     }
 }
 
@@ -99,4 +102,12 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
     testImplementation "io.insert-koin:koin-test:$koin_version"
     testImplementation "io.mockk:mockk:$mockk_version"
+    androidTestImplementation "androidx.compose.ui:ui-test-junit4:$compose_version"
+    debugImplementation "androidx.compose.ui:ui-tooling:$compose_version"
+    debugImplementation "androidx.compose.ui:ui-test-manifest:$compose_version"
+
+    //Compose
+    implementation "androidx.compose.ui:ui:$compose_version"
+    implementation "androidx.compose.ui:ui-tooling-preview:$compose_version"
+    implementation "androidx.compose.material3:material3:$material3_version"
 }

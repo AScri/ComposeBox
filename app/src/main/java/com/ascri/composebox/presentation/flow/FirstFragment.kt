@@ -1,4 +1,4 @@
-package com.ascri.composebox.presentation.first
+package com.ascri.composebox.presentation.flow
 
 import android.os.Bundle
 import android.view.LayoutInflater
