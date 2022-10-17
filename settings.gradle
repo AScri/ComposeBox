@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "CleanApp"
+rootProject.name = "ComposeBox"
 include ':app'
