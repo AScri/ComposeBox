@@ -1,4 +1,4 @@
-package com.ascri.myapplicationcompose.ui.theme
+package com.ascri.composebox.presentation.theme
 
 import android.app.Activity
 import android.os.Build

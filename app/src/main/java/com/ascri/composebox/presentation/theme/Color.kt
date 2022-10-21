@@ -1,4 +1,4 @@
-package com.ascri.myapplicationcompose.ui.theme
+package com.ascri.composebox.presentation.theme
 
 import androidx.compose.ui.graphics.Color
 

@@ -11,9 +11,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
-import com.ascri.composebox.R
 import com.ascri.composebox.presentation.base.BaseActivity
-import com.ascri.myapplicationcompose.ui.theme.MyApplicationComposeTheme
+import com.ascri.composebox.presentation.theme.MyApplicationComposeTheme
 
 class MainActivity : BaseActivity() {
     private lateinit var navController: NavController
