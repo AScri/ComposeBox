@@ -13,6 +13,7 @@ import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import com.ascri.composebox.presentation.base.BaseActivity
 import com.ascri.composebox.presentation.theme.MyApplicationComposeTheme
+import com.ascri.composebox.presentation.ui.CounterCompose
 
 class MainActivity : BaseActivity() {
     private lateinit var navController: NavController
@@ -27,7 +28,7 @@ class MainActivity : BaseActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Greeting("Android")
+                    CounterCompose()
                 }
             }
         }

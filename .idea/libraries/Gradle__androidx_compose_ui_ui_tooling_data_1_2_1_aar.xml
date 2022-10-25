@@ -4,10 +4,14 @@
       <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-3/db6acbd52e68de2449819af86ebfad84/transformed/ui-tooling-data-1.2.1/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/db6acbd52e68de2449819af86ebfad84/transformed/ui-tooling-data-1.2.1/res" />
       <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/db6acbd52e68de2449819af86ebfad84/transformed/ui-tooling-data-1.2.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/db6acbd52e68de2449819af86ebfad84/transformed/ui-tooling-data-1.2.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/db6acbd52e68de2449819af86ebfad84/transformed/ui-tooling-data-1.2.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/db6acbd52e68de2449819af86ebfad84/transformed/ui-tooling-data-1.2.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/androidx.compose.ui/ui-tooling-data/1.2.1/2c879938f314d34887d5ebb3afcad16bccf04e0e/ui-tooling-data-1.2.1-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.compose.ui/ui-tooling-data/1.2.1/2c879938f314d34887d5ebb3afcad16bccf04e0e/ui-tooling-data-1.2.1-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

@@ -2,12 +2,15 @@
   <library name="Gradle: io.insert-koin:koin-test-jvm:3.2.2">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/io.insert-koin/koin-test-jvm/3.2.2/c108fa4e217981e6b2eef50ef3bda4a975bfa845/koin-test-jvm-3.2.2.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.insert-koin/koin-test-jvm/3.2.2/c108fa4e217981e6b2eef50ef3bda4a975bfa845/koin-test-jvm-3.2.2.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/io.insert-koin/koin-test-jvm/3.2.2/d9e538f51c5a0f35d977f11085db5383d228027/koin-test-jvm-3.2.2-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.insert-koin/koin-test-jvm/3.2.2/d9e538f51c5a0f35d977f11085db5383d228027/koin-test-jvm-3.2.2-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
       <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/io.insert-koin/koin-test-jvm/3.2.2/80746343931f554bfa34f7b6a6ae45e7480b6ff/koin-test-jvm-3.2.2-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.insert-koin/koin-test-jvm/3.2.2/80746343931f554bfa34f7b6a6ae45e7480b6ff/koin-test-jvm-3.2.2-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
