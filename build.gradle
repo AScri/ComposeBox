@@ -4,17 +4,18 @@ buildscript {
         kotlin_version = '1.7.20'
         retrofit_version = '2.9.0'
         moshi_version = '1.14.0'
-        nav_version = '2.5.2'
+        nav_version = '2.5.3'
         converter_moshi_version = '2.9.0'
         mokito_kotlin_version = "1.5.0"
         mokito_inline_version = "2.11.0"
         koin_version = "3.2.2"
-        koin_android_version = "3.2.2"
-        koin_android_compose_version = "3.2.1"
+        koin_android_version = "3.3.0"
+        koin_android_compose_version = "3.3.0"
         coroutines_version = "1.6.1"
         mockk_version = "1.9.3"
         compose_version = '1.2.1'
         material3_version = '1.0.0-rc01'
+        timber_version = '5.0.1'
     }
 }
 

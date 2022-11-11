@@ -5,4 +5,8 @@
     <string name="permission_rationale_title">Permission denied.\nWithout this permission the app is unable to use feature.</string>
     <string name="retry">Retry</string>
     <string name="file_provider_name" translatable="false">.fileProvider</string>
+    <string name="item_count">Item count</string>
+    <string name="plus">Plus item</string>
+    <string name="minus">Minus item</string>
+    <string name="counter">Counter</string>
 </resources>
