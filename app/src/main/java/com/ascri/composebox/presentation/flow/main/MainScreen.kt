@@ -22,6 +22,7 @@ import com.ascri.composebox.presentation.flow.bottom_menu.navigateToBottomBar
 import com.ascri.composebox.presentation.flow.canvas.navigateToCustomDraw
 import com.ascri.composebox.presentation.flow.click.navigateToClick
 import com.ascri.composebox.presentation.flow.horizontal_list.navigateToHorizontalScroll
+import com.ascri.composebox.presentation.flow.image.navigateToImagePicker
 import com.ascri.composebox.presentation.flow.list.navigateToList
 import com.ascri.composebox.presentation.flow.top_bar.navigateToTopBar
 
@@ -34,7 +35,8 @@ fun MainScreen(navController: NavController) {
         Router("Click") { navController.navigateToClick() },
         Router("List") { navController.navigateToList() },
         Router("Top App Bar"){navController.navigateToTopBar()},
-        Router("Horizontal Scroll"){navController.navigateToHorizontalScroll()}
+        Router("Horizontal Scroll"){navController.navigateToHorizontalScroll()},
+        Router("Image Picker"){navController.navigateToImagePicker()}
     )
     LazyColumn(modifier = Modifier.padding(vertical = 32.dp)) {
         itemsIndexed(viewList) { _, item ->
