@@ -11,6 +11,7 @@ import androidx.compose.material.Text
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -21,6 +22,7 @@ import com.ascri.composebox.presentation.flow.bottom_menu.navigateToBottomBar
 import com.ascri.composebox.presentation.flow.canvas.navigateToCustomDraw
 import com.ascri.composebox.presentation.flow.click.navigateToClick
 import com.ascri.composebox.presentation.flow.list.navigateToList
+import com.ascri.composebox.presentation.flow.top_bar.navigateToTopBar
 
 @Composable
 fun MainScreen(navController: NavController) {
@@ -30,6 +32,7 @@ fun MainScreen(navController: NavController) {
         Router("Custom Draw") { navController.navigateToCustomDraw() },
         Router("Click") { navController.navigateToClick() },
         Router("List") { navController.navigateToList() },
+        Router("Top App Bar"){navController.navigateToTopBar()}
     )
     LazyColumn(modifier = Modifier.padding(vertical = 32.dp)) {
         itemsIndexed(viewList) { _, item ->
@@ -55,7 +58,8 @@ fun MainScreenItem(item: Router) {
             text = item.name,
             modifier = Modifier.padding(16.dp),
             fontSize = 16.sp,
-            textAlign = TextAlign.Center
+            textAlign = TextAlign.Center,
+            color = Color.White
         )
     }
 }

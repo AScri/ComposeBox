@@ -13,6 +13,7 @@ import com.ascri.composebox.presentation.flow.click.clickScreen
 import com.ascri.composebox.presentation.flow.list.listScreen
 import com.ascri.composebox.presentation.flow.main.mainRoute
 import com.ascri.composebox.presentation.flow.main.mainScreen
+import com.ascri.composebox.presentation.flow.top_bar.navigateToTopBar
 
 @ExperimentalMaterialApi
 @ExperimentalUnitApi
@@ -26,5 +27,6 @@ fun AppNavigation() {
         customDrawScreen(navController)
         clickScreen(navController)
         listScreen(navController)
+        navigateToTopBar(navController)
     }
 }
