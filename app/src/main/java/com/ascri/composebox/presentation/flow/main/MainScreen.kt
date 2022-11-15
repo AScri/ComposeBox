@@ -21,6 +21,7 @@ import com.ascri.composebox.presentation.flow.architecture_example.navigateToCou
 import com.ascri.composebox.presentation.flow.bottom_menu.navigateToBottomBar
 import com.ascri.composebox.presentation.flow.canvas.navigateToCustomDraw
 import com.ascri.composebox.presentation.flow.click.navigateToClick
+import com.ascri.composebox.presentation.flow.horizontal_list.navigateToHorizontalScroll
 import com.ascri.composebox.presentation.flow.list.navigateToList
 import com.ascri.composebox.presentation.flow.top_bar.navigateToTopBar
 
@@ -32,7 +33,8 @@ fun MainScreen(navController: NavController) {
         Router("Custom Draw") { navController.navigateToCustomDraw() },
         Router("Click") { navController.navigateToClick() },
         Router("List") { navController.navigateToList() },
-        Router("Top App Bar"){navController.navigateToTopBar()}
+        Router("Top App Bar"){navController.navigateToTopBar()},
+        Router("Horizontal Scroll"){navController.navigateToHorizontalScroll()}
     )
     LazyColumn(modifier = Modifier.padding(vertical = 32.dp)) {
         itemsIndexed(viewList) { _, item ->

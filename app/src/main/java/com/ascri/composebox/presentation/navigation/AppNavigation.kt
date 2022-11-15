@@ -10,6 +10,7 @@ import com.ascri.composebox.presentation.flow.architecture_example.counterScreen
 import com.ascri.composebox.presentation.flow.bottom_menu.bottomBarScreen
 import com.ascri.composebox.presentation.flow.canvas.customDrawScreen
 import com.ascri.composebox.presentation.flow.click.clickScreen
+import com.ascri.composebox.presentation.flow.horizontal_list.navigateToHorizontal
 import com.ascri.composebox.presentation.flow.list.listScreen
 import com.ascri.composebox.presentation.flow.main.mainRoute
 import com.ascri.composebox.presentation.flow.main.mainScreen
@@ -28,5 +29,6 @@ fun AppNavigation() {
         clickScreen(navController)
         listScreen(navController)
         navigateToTopBar(navController)
+        navigateToHorizontal(navController)
     }
 }
