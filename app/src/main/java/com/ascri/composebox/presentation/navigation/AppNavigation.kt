@@ -8,6 +8,7 @@ import androidx.navigation.compose.rememberNavController
 import com.ascri.composebox.presentation.flow.architecture_example.counterRoute
 import com.ascri.composebox.presentation.flow.architecture_example.counterScreen
 import com.ascri.composebox.presentation.flow.bottom_menu.bottomBarScreen
+import com.ascri.composebox.presentation.flow.camera.navigateToCamera
 import com.ascri.composebox.presentation.flow.canvas.customDrawScreen
 import com.ascri.composebox.presentation.flow.click.clickScreen
 import com.ascri.composebox.presentation.flow.horizontal_list.navigateToHorizontal
@@ -32,5 +33,6 @@ fun AppNavigation() {
         navigateToTopBar(navController)
         navigateToHorizontal(navController)
         navigateToImagePicker(navController)
+        navigateToCamera(navController)
     }
 }

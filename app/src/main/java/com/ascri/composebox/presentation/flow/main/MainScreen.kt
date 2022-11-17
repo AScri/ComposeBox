@@ -19,6 +19,7 @@ import androidx.navigation.NavController
 import com.ascri.composebox.presentation.flow.architecture_example.CounterScreenArgs
 import com.ascri.composebox.presentation.flow.architecture_example.navigateToCounter
 import com.ascri.composebox.presentation.flow.bottom_menu.navigateToBottomBar
+import com.ascri.composebox.presentation.flow.camera.navigateToCamera
 import com.ascri.composebox.presentation.flow.canvas.navigateToCustomDraw
 import com.ascri.composebox.presentation.flow.click.navigateToClick
 import com.ascri.composebox.presentation.flow.horizontal_list.navigateToHorizontalScroll
@@ -36,7 +37,8 @@ fun MainScreen(navController: NavController) {
         Router("List") { navController.navigateToList() },
         Router("Top App Bar"){navController.navigateToTopBar()},
         Router("Horizontal Scroll"){navController.navigateToHorizontalScroll()},
-        Router("Image Picker"){navController.navigateToImagePicker()}
+        Router("Image Picker"){navController.navigateToImagePicker()},
+        Router("Permission"){navController.navigateToCamera()}
     )
     LazyColumn(modifier = Modifier.padding(vertical = 32.dp)) {
         itemsIndexed(viewList) { _, item ->
