@@ -1,12 +1,11 @@
 package com.ascri.composebox.presentation.flow.horizontal_list
 
+import android.annotation.SuppressLint
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.lazy.LazyRow
-import androidx.compose.foundation.lazy.itemsIndexed
+import androidx.compose.foundation.lazy.*
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.*
 import androidx.compose.runtime.Composable
@@ -21,6 +20,7 @@ import androidx.navigation.NavController
 import com.ascri.composebox.R
 
 @Composable
+@SuppressLint("UnusedMaterialScaffoldPaddingParameter")
 fun HorizontalScrollView(navController: NavController) {
     val scope = rememberCoroutineScope()
     val scaffoldState = rememberScaffoldState()
@@ -67,11 +67,30 @@ fun HorizontalScrollItem(item: String) {
     }
 }
 
+
+fun LazyListState.isScrolledToEnd() = layoutInfo.visibleItemsInfo.lastOrNull()?.index == layoutInfo.totalItemsCount - 1
+
 @Composable
 fun VerticalScrollView() {
     val itemList =
-        arrayListOf("Apple", "Google", "Microsoft", "Amazon", "Some company", "Else Company","Apple", "Google", "Microsoft", "Amazon", "Some company", "Else Company")
-    LazyColumn{
+        arrayListOf(
+            "Apple",
+            "Google",
+            "Microsoft",
+            "Amazon",
+            "Some company",
+            "Else Company",
+            "Apple",
+            "Google",
+            "Microsoft",
+            "Amazon",
+            "Some company",
+            "Else Company"
+        )
+    val scrollState = rememberLazyListState()
+    LazyColumn(
+        state = scrollState
+    ) {
         itemsIndexed(itemList) { _, item ->
             HorizontalScrollItem(item = item)
         }

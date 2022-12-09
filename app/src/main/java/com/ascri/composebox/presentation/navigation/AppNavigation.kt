@@ -16,6 +16,7 @@ import com.ascri.composebox.presentation.flow.image.navigateToImagePicker
 import com.ascri.composebox.presentation.flow.list.listScreen
 import com.ascri.composebox.presentation.flow.main.mainRoute
 import com.ascri.composebox.presentation.flow.main.mainScreen
+import com.ascri.composebox.presentation.flow.player.navigateToPlayer
 import com.ascri.composebox.presentation.flow.top_bar.navigateToTopBar
 
 @ExperimentalMaterialApi
@@ -34,5 +35,6 @@ fun AppNavigation() {
         navigateToHorizontal(navController)
         navigateToImagePicker(navController)
         navigateToCamera(navController)
+        navigateToPlayer(navController)
     }
 }

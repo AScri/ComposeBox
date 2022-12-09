@@ -1,9 +1,9 @@
 package com.ascri.composebox.di
 
 import com.ascri.composebox.BuildConfig
-import com.ascri.composebox.domain.adapters.NullToEmptyStringAdapter
-import com.ascri.composebox.domain.adapters.UserJsonAdapter
-import com.ascri.composebox.domain.exception.ErrorHandler
+import com.ascri.composebox.presentation.navigation.domain.adapters.NullToEmptyStringAdapter
+import com.ascri.composebox.presentation.navigation.domain.adapters.UserJsonAdapter
+import com.ascri.composebox.presentation.navigation.domain.exception.ErrorHandler
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.adapters.Rfc3339DateJsonAdapter
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
