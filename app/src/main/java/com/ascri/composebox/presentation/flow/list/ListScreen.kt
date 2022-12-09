@@ -35,7 +35,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.*
 import androidx.navigation.NavController
 import com.ascri.composebox.R
-import com.ascri.composebox.domain.model.app.ListExample
+import com.ascri.composebox.presentation.navigation.domain.model.app.ListExample
 import com.ascri.composebox.presentation.MainPreview
 import java.util.*
 

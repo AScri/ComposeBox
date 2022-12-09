@@ -25,7 +25,9 @@ import com.ascri.composebox.presentation.flow.click.navigateToClick
 import com.ascri.composebox.presentation.flow.horizontal_list.navigateToHorizontalScroll
 import com.ascri.composebox.presentation.flow.image.navigateToImagePicker
 import com.ascri.composebox.presentation.flow.list.navigateToList
+import com.ascri.composebox.presentation.flow.player.navigateToPlayer
 import com.ascri.composebox.presentation.flow.top_bar.navigateToTopBar
+import okhttp3.Route
 
 @Composable
 fun MainScreen(navController: NavController) {
@@ -38,7 +40,8 @@ fun MainScreen(navController: NavController) {
         Router("Top App Bar"){navController.navigateToTopBar()},
         Router("Horizontal Scroll"){navController.navigateToHorizontalScroll()},
         Router("Image Picker"){navController.navigateToImagePicker()},
-        Router("Permission"){navController.navigateToCamera()}
+        Router("Permission"){navController.navigateToCamera()},
+        Router("Player"){navController.navigateToPlayer()}
     )
     LazyColumn(modifier = Modifier.padding(vertical = 32.dp)) {
         itemsIndexed(viewList) { _, item ->
